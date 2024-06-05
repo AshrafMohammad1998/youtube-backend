@@ -37,7 +37,7 @@ const userSchema = new Schema({
         type: String, // cloudinary url
         required: [true, "Password is required"],
     }, 
-    watchingHistory : [
+    watchHistory : [
         {
             type: Schema.Types.ObjectId,
             ref : "video"
